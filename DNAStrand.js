@@ -11,7 +11,7 @@ function DNAStrand(dna){
   for (let letter of letters) {
     while (dna.includes(letter)) {
            newStr = dna.replace(letter, strand.get(letter))
-           })
+           }
   }
   return newStr
 }
